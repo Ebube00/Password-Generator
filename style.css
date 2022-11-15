@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+}
+.div{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    left: 35%;
+    margin-top: 200px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 3px 3px 3px 3px gray;
+}
+#psd{
+    height: 30px;
+    padding: 10px 5px;
+    margin-top: 10px;
+    outline: none;
+    font-size: 20px;
+}
+#up{
+    margin-right: 20px;
+    cursor: pointer;
+}
+#low{
+    margin-right: 20px;
+    cursor: pointer;
+}
+#num{
+    margin-right: 20px;
+    cursor: pointer;
+}
+#cha{
+    margin-right: 20px;
+    cursor: pointer;
+}
+div{
+    margin-top: 20px;
+}
+#btn{
+    margin-top: 20px;
+    cursor: pointer;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 600;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Password Generator</title>
+</head>
+<body>
+    <div class="div">
+        <input type="text" placeholder="PASSWORD" id="psd" readonly>
+        <div>
+            <input type="checkbox" id="up" name="style"><span>UpperCase</span> 
+        </div>
+        <div>
+            <input type="checkbox" id="low" name="style"><span>LowerCase</span> 
+        </div>
+        <div>
+            <input type="checkbox" id="num" name="style"><span>Number</span> 
+        </div>
+        <div>
+            <input type="checkbox" id="cha" name="style"><span>Characters</span> 
+        </div>
+        <button id="btn">Submit</button>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
+
+<!-- for(let x = 0; x < 8; x++){
+    let randPass = Math.floor(Math.random() * pass.length)
+    }
+    let upp = 'QWERTYUIOPLKJHGFDSAZXCVBNM'
+    up.addEventListener('click', ()=>{
+        for(let x = 0; x < 8; x++){
+            let randupp = Math.floor(Math.random() * upp.length)
+            console.log(upp)
+    }
+})
+low.addEventListener('click', ()=>{
+    let loww = 'qwertyuioplkjhgfdsazxcvbnm'
+    for(let x = 0; x < 8; x++){
+        let randlow = Math.floor(Math.random() * loww.length)
+    }
+})
+num.addEventListener('click', ()=>{
+    let numm = '0123456789'
+    for(let x = 0; x < 8; x++){
+        let randnum = Math.floor(Math.random() * numm.length)
+    }
+})
+cha.addEventListener('click', ()=>{
+    let chaa = '!@#$%^&*()?/.,><=-+'
+    for(let x = 0; x < 8; x++){
+        let randcha = Math.floor(Math.random() * chaa.length)
+    }
+})
+
+empass += upp[randupp] + low[randlow] + num[randnum] + cha[randcha]
+psd.value = empass -->
